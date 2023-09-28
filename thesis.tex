@@ -1,0 +1,59 @@
+\documentclass[letterpaper,12pt]{report}
+\usepackage{thesis}
+
+
+
+
+
+
+
+\begin{document}
+
+\pagenumbering{roman}
+
+% Fill in the title, author, degree name, department, and month/year.
+% Upon completion, this should look like the following:
+%\thesistitle
+%	{Complicated and Important-Sounding Thesis Title}
+%	{John P. Doe}
+%	{Master of Science}
+%	{Department of Computer Science}
+%	{May 2009}
+% The \thesistitle definition is in thesis.sty.  Other customizations
+% can be made there.
+\thesistitle
+	{Methods for acoustic surveys with broadband echosounders on autonomous platforms in the Arctic}
+	{\emph{Muriel Dunn} }
+	{Doctor of Philosophy}
+	{Fisheries and Marine Institute}
+	{\emph{September 2023}}
+
+\include{abstract}
+\include{summary}
+\include{ack}
+\include{pubs}
+\include{contents}
+\include{tables}
+\include{figures}
+\include{coauthorship}
+
+\pagenumbering{arabic}
+\include{chap1_intro}
+\include{chap2_flaket}
+\include{chap3_AZKABAN}
+\include{chap4_AFKABAN}
+\include{chap5}
+%\include{chap6}
+
+\include{bib}
+
+
+% If you have no appendices, remove the following two lines.
+% If you have more appdences, add them as necessary.
+\appendix
+\include{SuppInf1}
+\include{apdxa}
+\include{SuppInf2}
+\include{SuppInf3}
+
+\end{document}

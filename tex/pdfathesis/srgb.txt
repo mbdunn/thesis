@@ -1,0 +1,3 @@
+The file 'srgb.icc' is parth of the Ghostscript distribution and subject to the
+copyright restrictions of this distribution.
+
